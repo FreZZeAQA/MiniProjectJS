@@ -4,8 +4,10 @@ const infoContainer = document.getElementById('infoContainer');
 const commentsContainer = document.getElementById('commentsContainer');
 const postUrl = `https://jsonplaceholder.typicode.com/posts/${postId}`;
 const commentsUrl = `https://jsonplaceholder.typicode.com/posts/${postId}/comments`;
+const bckButton = document.getElementById('bck-to-usr');
 
 function fetchData(url) {
+
     return fetch(url)
         .then(response => response.json());
 }
@@ -24,6 +26,7 @@ Promise.all([fetchData(postUrl), fetchData(commentsUrl)])
                 }
             }
         }
+        bckButton.href = 'user-details.html?id='+post.userId
 
         flatter(post, infoContainer, 'postInfo');
 

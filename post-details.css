@@ -2,6 +2,18 @@ body{
     margin: 0;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    margin: 3vh 3vw 0 0;
+    text-decoration: none;
+}
+
 .box {
     width: 20vw;
     height: 40vh;
@@ -17,8 +29,20 @@ body{
     margin-top: 5vh;
 }
 
-p,button {
+button {
+    height: 6vh;
+    width: 9vw;
+    border: 1px black solid;
     margin: 1vh;
+    color: black;
+    background: white;
+    transition: 0.5s;
+}
+button:hover {
+    color: white;
+    transition: 0.5s;
+    background: black;
+
 }
 
 .postInfo{
