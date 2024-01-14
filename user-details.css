@@ -4,12 +4,13 @@ body {
 
 h1,h2 {
     margin: 0;
-    color: #ccc;
+    color: black;
 }
+
 
 h2{
     text-align: center;
-    margin-top: 2vh ;
+    margin-top: 4vh ;
 }
 
 
@@ -29,7 +30,7 @@ hr {
     justify-content: center;
     margin: 0;
     padding: 2vw;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
 }
 
 .header {
@@ -44,18 +45,16 @@ hr {
 button {
     height: 10vh;
     width: 20vw;
-    border: 0;
-    box-shadow: 0 0 2px 0 rgba(37, 37, 37, 0.75);
+    border: 1px black solid;
     margin: 1vh;
-    color: #ccc;
+    color: black;
     background: white;
-    border-radius: 2vw;
     transition: 0.5s;
 }
 button:hover {
-    color: #a2a2a2;
+    color: white;
     transition: 0.5s;
-    background: #e5e4e4;
+    background: black;
 
 }
 
@@ -74,14 +73,16 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #bebebe;
-    border: rgb(128, 128, 128) solid 1px;
+    color: black;
+    border: black 1px solid;
     text-align: center;
     margin-top: 4vh;
     transition: 0.2s;
 }
 .box:hover{
     scale: 0.95 0.95;
+    background: black;
+    color: white;
     transition: 0.2s;
 }
 a{

@@ -11,8 +11,8 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #bebebe;
-    border: rgb(128, 128, 128) solid 2px;
+    color: black;
+    border: black solid 1px;
     text-align: center;
     margin-top: 5vh;
 }
@@ -27,11 +27,16 @@ p,button {
     text-align: center;
     margin: 0;
     padding: 2vw;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
 }
 
 #commentsContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 3vw 3vw 3vw ;
+}
+
+h1,h2 {
+    margin: 3vh 0 0 3vw ;
 }

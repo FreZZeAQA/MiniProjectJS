@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -16,23 +17,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #bebebe;
+
 }
 
 .box button {
     height: 10vh;
-    width: 45vw;
-    border: 0;
-    box-shadow: 0 0 2px 0 rgba(37, 37, 37, 0.75);
+    width: 40vw;
     margin: 1vh;
-    color: #ccc;
+    color: black;
     background:white;
-    border-radius: 2vw;
+    border: 1px solid #000;
     transition: 0.5s;
 }
 .box button:hover{
-    background: #e5e4e4;
-    color: #a2a2a2;
+    background: black;
+    color: white;
     transition: 0.5s;
 
 }
