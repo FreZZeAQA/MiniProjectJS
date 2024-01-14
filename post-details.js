@@ -26,6 +26,7 @@ Promise.all([fetchData(postUrl), fetchData(commentsUrl)])
                 }
             }
         }
+
         bckButton.href = 'user-details.html?id='+post.userId
 
         flatter(post, infoContainer, 'postInfo');
