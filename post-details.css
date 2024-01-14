@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+.box {
+    width: 20vw;
+    height: 40vh;
+    font-size: 3vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #bebebe;
+    border: rgb(128, 128, 128) solid 2px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+p,button {
+    margin: 1vh;
+}
+
+.postInfo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 2vw;
+    border-bottom: 1px solid #ccc;
+}
+
+#commentsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
