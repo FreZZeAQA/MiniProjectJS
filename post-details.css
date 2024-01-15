@@ -1,66 +1,62 @@
-body{
+body {
     margin: 0;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
-}
-
-a{
-    display: flex;
-    align-items: center;
-    margin: 3vh 3vw 0 0;
-    text-decoration: none;
+    margin: 21px;
 }
 
 .box {
-    width: 20vw;
-    height: 40vh;
-    font-size: 3vh;
+    height: 300px;
+    font-size: 16px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: black;
-    border: black solid 1px;
+    color: rgba(0, 0, 0, 1);
+    border: rgba(0, 0, 0, 1) solid 1px;
     text-align: center;
-    margin-top: 5vh;
+    flex: 1 1 24%;
 }
 
 button {
-    height: 6vh;
-    width: 9vw;
-    border: 1px black solid;
-    margin: 1vh;
-    color: black;
+    width: 100px;
+    height: 50px;
+    border: 1px rgba(0, 0, 0, 1) solid;
+    margin-top: 21px;
+    color: rgba(0, 0, 0, 1);
     background: white;
     transition: 0.5s;
+
+
 }
+
 button:hover {
     color: white;
     transition: 0.5s;
-    background: black;
+    background: rgba(0, 0, 0, 1);
 
 }
 
-.postInfo{
+.postInfo {
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 0;
-    padding: 2vw;
-    border-bottom: 1px solid black;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
-#commentsContainer{
+#commentsContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 3vw 3vw 3vw ;
+    gap: 15px;
 }
 
 h1,h2 {
-    margin: 3vh 0 0 3vw ;
+    text-align: center;
+
 }

@@ -2,91 +2,77 @@ body {
     margin: 0;
 }
 
-h1,h2 {
+h1, h2 {
     margin: 0;
-    color: black;
+    color: rgba(0, 0, 0, 1);
+
 }
 
 
-h2{
+h2 {
     text-align: center;
-    margin-top: 4vh ;
-}
-
-
-hr {
-    margin: 0;
-    border-top: 1px dotted #ccc;
-}
-
-.bold-p {
-    margin: 0;
-    padding: 2vw;
-    font-weight: bold;
+    margin: 20px 0;
 }
 
 .userInfo {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 2vw;
-    border-bottom: 1px solid black;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 .header {
-    margin: 3vh 0 3vh 0;
+    margin: 10px 0 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
 }
 
 button {
-    height: 10vh;
-    width: 20vw;
-    border: 1px black solid;
-    margin: 1vh;
-    color: black;
-    background: white;
+    height: 60px;
+    width: 200px;
+    border: 1px rgba(0, 0, 0, 1) solid;
+    margin: 10px;
+    color: rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
     transition: 0.5s;
+    cursor: pointer;
 }
+
 button:hover {
-    color: white;
+    color: rgba(255, 255, 255, 1);
     transition: 0.5s;
-    background: black;
+    background: rgba(0, 0, 0, 1);
 
 }
 
-.postsContainer{
+.postsContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 10px;
 }
 
 .box {
-    width: 18vw;
     height: 40vh;
-    font-size: 3vh;
+    font-size: 16px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
-    border: black 1px solid;
+    color: rgba(0, 0, 0, 1);
+    border: rgba(0, 0, 0, 1) 1px solid;
     text-align: center;
-    margin-top: 4vh;
     transition: 0.2s;
-}
-.box:hover{
-    scale: 0.95 0.95;
-    background: black;
-    color: white;
-    transition: 0.2s;
+    cursor: pointer;
+    flex: 1 1 19%;
 }
 
-a{
-    text-decoration: none;
+.box:hover {
+    scale: 0.95 0.95;
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    transition: 0.2s;
 }
 

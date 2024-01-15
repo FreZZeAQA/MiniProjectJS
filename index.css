@@ -2,36 +2,37 @@ body {
     margin: 0;
 }
 
-
 .container {
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 10px;
 }
 
 .box {
-    width: 50vw;
-    height: 20vh;
-    font-size: 3vh;
+    height: 105px;
+    font-size: 16px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    flex: 1 1 49%;
 }
 
 .box button {
-    height: 10vh;
-    width: 40vw;
-    margin: 1vh;
-    color: black;
-    background:white;
+    height: 60px;
+    width: 100%;
+    margin: 5px;
+    color: rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
     border: 1px solid #000;
     transition: 0.5s;
 }
-.box button:hover{
-    background: black;
-    color: white;
+
+.box button:hover {
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
     transition: 0.5s;
 
 }
